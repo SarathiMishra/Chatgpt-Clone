@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 import { FaHome } from "react-icons/fa";
 import { MdOutlineSaveAlt } from "react-icons/md";
 import { GiUpgrade } from "react-icons/gi";
@@ -9,7 +9,7 @@ import { FaRegUser } from "react-icons/fa";
 import { sendMsgToGemini } from './openai';
 import { useEffect, useRef, useState } from 'react';
 import { SiOpenai } from "react-icons/si";
-import './GPT.css';
+// import './GPT.css';
 function App() {
   const msgEnd = useRef(null);
   const [input,setInput]= useState("");
